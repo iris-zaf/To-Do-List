@@ -23,7 +23,7 @@ body {
 
 header {
   padding: 2rem 1rem;
-  max-width: 800px;
+  max-width: 60%;
   width: 100%;
   margin: 0 auto;
 }
@@ -75,7 +75,7 @@ button {
 }
 main {
   flex: 1 1 0%;
-  max-width: 800px;
+  max-width: 60%;
   width: 100%;
   margin: 0 auto;
 }
@@ -84,7 +84,7 @@ main {
 }
 .task-list h2 {
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 1rem;
   color: var(--gray);
 }
@@ -131,4 +131,8 @@ main {
 }
 .task .actions .delete {
   color: crimson;
+}
+.image {
+  margin: 0 auto;
+  max-width: 100%;
 }
