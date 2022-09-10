@@ -2,10 +2,7 @@ window.addEventListener('load', (event) => {
     const form = document.querySelector("#new-task-form");
     const input = document.querySelector ("#new-task-input");
     const list_el = document.querySelector("#tasks");
-    const image = document.createElement("img");
-    image.src = "planner-img.webp";
-    document.body.appendChild(image);
-    image.classList.add("image");
+    
     form.addEventListener ('submit', (event) => {
         event.preventDefault();
       
@@ -47,5 +44,10 @@ window.addEventListener('load', (event) => {
 
         input.value = "";
 
+
+    task_delete_el.addEventListener ('click', () =>{
+        list_el.removeChild(task_el);
     })
 })
+})
+

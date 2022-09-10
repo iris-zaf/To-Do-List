@@ -5,10 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Planner</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./planner.css" />
   </head>
   <body>
     <header>
+      <ul class="top">
+        <li><a href="#">🌞 My day</a></li>
+        <li><a href="#">🏋🏼‍♂️ Workout plan</a></li>
+        <li><a href="#">🧺 Groceries of the week</a></li>
+      </ul>
       <h1>My To-Do List for September 2022</h1>
       <form id="new-task-form">
         <input
@@ -35,6 +51,31 @@
         </div>
       </section>
     </main>
+    <div class="ia-container">
+      <figure>
+        <img src="./planner-2.webp" alt="01-image" />
+        <input type="radio" name="radio-set" checked="checked" />
+        <figurecaption><span>Coffee Breaks</span></figurecaption>
+
+        <figure>
+          <img src="./planner-3.webp" alt="02-image" />
+          <input type="radio" name="radio-set" checked="checked" />
+          <figurecaption><span>Get sh$% done!</span></figurecaption>
+
+          <figure>
+            <img src="./planner-4.webp" alt="03-image" />
+            <input type="radio" name="radio-set" checked="checked" />
+            <figurecaption><span>Work Hard</span></figurecaption>
+
+            <figure>
+              <img src="./planner-img2.jpeg" alt="04-image" />
+              <input type="radio" name="radio-set" checked="checked" />
+              <figurecaption><span>Noted</span></figurecaption>
+            </figure>
+          </figure>
+        </figure>
+      </figure>
+    </div>
     <script src="planner.js"></script>
   </body>
 </html>
